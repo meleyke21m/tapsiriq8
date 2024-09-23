@@ -1,0 +1,110 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+
+}
+
+.img{
+width: 91px;
+    height: 88px;
+    padding: 1rem;
+    object-fit: cover;
+}
+
+	
+
+.style{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+}
+
+.style i {
+	color: white;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+
+}
+form{
+	position: relative;
+}
+
+form input{
+	border-radius: 40px;
+	padding: 10px 5px; 
+	border: none;
+	 outline: none;
+
+}
+
+form i {
+	position: absolute;
+	right: 25px;
+	top: 10px;
+
+}
+header{
+	background-color: rgb(21,32,43);
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	
+}
+li a{
+	color: white;
+}
+li i{
+	color: white;
+
+}
+li {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.style2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 40px;
+	justify-content: right;
+}
+.style2 nav ul {
+	gap: 40px;
+}
+.buttons{
+	position: relative;
+	display: flex;
+	width: 200px;
+}
+.buttons button{
+	padding: 10px 20px;
+	border: none;	
+}
+
+.buttons button:nth-child(1){
+position: absolute;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+right: 52px;
+}
+
+.buttons button:nth-child(2){
+z-index: 1;
+	border-radius: 50px;
+background-color: green;
+color: white;
+}
+ .style2 li i{
+	color: #9763f6;
+
+}
